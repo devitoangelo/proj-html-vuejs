@@ -104,13 +104,17 @@ export default {
       </div>
     </div>
 
+    <!-- submitetitle2 -->
+    <div class="sub_2"> 
+      <h3><strong>Recent Courses</strong></h3>
+      <p>
+        Whether you're considering a foundation course or an undergraduate degree master's <br> or a PhD, academics is a place where students thrive.
+      </p>
 
 
 
 
-
-
-
+    </div>
 
 
 
@@ -203,4 +207,16 @@ export default {
 
 
 }
+
+
+/* subtitle2 */
+.sub_2{
+  text-align: center;
+
+}
+
+
+
+
+
 </style>
