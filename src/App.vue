@@ -39,13 +39,14 @@ export default {
       Since 2000, weve been partnering with education leaders to
       <div class="subtitle">
 
-        <nav style="  color: #FF3A2D; margin-right: 1rem;">increase equity and achievement</nav> for all students.
+        <nav style=" color:var(--color_subtitle);margin-right: 1rem;">increase equity and achievement</nav> for all students.
 
       </div>
     </h2>
   </main>
 
 </template>
+
 
 <style>
 /* jumbo */
@@ -89,4 +90,6 @@ export default {
   display: flex;
 
 }
+
+
 </style>
