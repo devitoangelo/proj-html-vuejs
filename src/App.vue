@@ -2,6 +2,7 @@
 import AppHeader from './components/AppHeader.vue'
 
 
+
 export default {
   components: {
     AppHeader
@@ -20,7 +21,7 @@ export default {
     <!-- jumbo -->
     <div class="site_main">
       <div class="title">
-        <h1>Professional Development For <br>
+        <h1 style="font-size: 3rem;">Professional Development For <br>
           Coaches And Leaders</h1>
       </div>
       <div class="ciao">
@@ -30,31 +31,24 @@ export default {
 
       </div>
 
-
-
-
-
-
-
     </div>
 
+    <!-- subtitle -->
 
+    <h2 style="text-align: center;">
+      Since 2000, weve been partnering with education leaders to
+      <div class="subtitle">
 
+        <nav style="  color: #FF3A2D; margin-right: 1rem;">increase equity and achievement</nav> for all students.
 
-
-
-
-
+      </div>
+    </h2>
   </main>
-
-
-
-
-
 
 </template>
 
 <style>
+/* jumbo */
 .site_main {
   width: 100%;
   height: 1000px;
@@ -68,7 +62,7 @@ export default {
     justify-content: center;
     align-items: center;
     height: 30%;
-    font-size: xx-large;
+
   }
 
   >.ciao {
@@ -87,7 +81,12 @@ export default {
     }
   }
 
+}
+/* subtitle */
 
+.subtitle {
+  justify-content: center;
+  display: flex;
 
 }
 </style>
