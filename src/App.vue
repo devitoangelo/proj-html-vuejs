@@ -3,9 +3,11 @@ import AppHeader from './components/AppHeader.vue'
 
 
 
+
 export default {
   components: {
-    AppHeader
+    AppHeader,
+
   }
 }
 
@@ -24,7 +26,7 @@ export default {
         <h1 style="font-size: 3rem;">Professional Development For <br>
           Coaches And Leaders</h1>
       </div>
-      <div class="ciao">
+      <div class="input">
         <button class="btn button">
           Learn More
         </button>
@@ -39,10 +41,76 @@ export default {
       Since 2000, weve been partnering with education leaders to
       <div class="subtitle">
 
-        <nav style=" color:var(--color_subtitle);margin-right: 1rem;">increase equity and achievement</nav> for all students.
+        <nav style=" color:var(--color_subtitle);margin-right: 1rem;">increase equity and achievement</nav> for all
+        students.
 
       </div>
     </h2>
+
+
+    <!-- container_card -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col ">
+          <div class="card card_">
+            <img class="img" src="/images/svg-0.svg" alt="">
+            <div class="card-body">
+              <div class="card-title">
+                <h1 class="card_title"> <strong>Online Coaching</strong></h1>
+                <p style="text-align: center;">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, alias.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="col ">
+          <div class="card card_">
+            <img class="img" src="/images/svg-0.svg" alt="">
+            <div class="card-body">
+              <div class="card-title">
+                <h1 class="card_title"> <strong>Consultation</strong></h1>
+                <p style="text-align: center;">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, alias.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="col ">
+          <div class="card card_">
+            <img class="img" src="/images/svg-0.svg" alt="">
+            <div class="card-body">
+              <div class="card-title">
+                <h1 class="card_title"> <strong>Life Programs</strong></h1>
+                <p style="text-align: center;">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, alias.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- results -->
+  
+
+
+
+
+
+
+
+
+
+
+
+
   </main>
 
 </template>
@@ -66,7 +134,7 @@ export default {
 
   }
 
-  >.ciao {
+  >.input {
     text-align: center;
 
     >.button {
@@ -83,6 +151,7 @@ export default {
   }
 
 }
+
 /* subtitle */
 
 .subtitle {
@@ -91,5 +160,28 @@ export default {
 
 }
 
+
+
+/* container_card */
+
+.card_ {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+
+  >.img {
+    width: 50px;
+  }
+}
+
+.card_title {
+  font-size: 1rem;
+  text-align: center;
+
+}
+
+/* results */
 
 </style>
