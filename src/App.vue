@@ -17,11 +17,12 @@ export default{
 
 
   <main>
+    <!-- jumbo -->
     <div class="site_main">
       <div class="title">
-      
 
       </div>
+
 
 
     </div>
@@ -45,11 +46,14 @@ export default{
 <style>
 .site_main{
   width: 100%;
-  height: 500px;
+  height: 1037px;
   background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(/images/jumbo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
 
   >.title{
