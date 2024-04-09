@@ -98,7 +98,11 @@ export default {
     </div>
 
     <!-- results -->
-  
+    <div class="info">
+      <div class="results">
+
+      </div>
+    </div>
 
 
 
@@ -184,4 +188,19 @@ export default {
 
 /* results */
 
+.info {
+  background-color: red;
+  width: 100%;
+  height: 100px;
+
+  >.results {
+    background-color: black;
+    margin: auto;
+    width: 70%;
+    height: 100%;
+
+  }
+
+
+}
 </style>
