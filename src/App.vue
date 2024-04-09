@@ -36,7 +36,6 @@ export default {
     </div>
 
     <!-- subtitle -->
-
     <h2 style="text-align: center;">
       Since 2000, weve been partnering with education leaders to
       <div class="subtitle">
@@ -49,7 +48,6 @@ export default {
 
 
     <!-- container_card -->
-
     <div class="container">
       <div class="row">
         <div class="col ">
@@ -97,24 +95,46 @@ export default {
       </div>
     </div>
 
-    <!-- results -->
+    <!-- resultsStudent -->
     <div class="info">
       <div class="results">
+        <section class="statistics">
+          6500
+        </section>
+        <section class="statistics">
+          +
+        </section>
+        <section class="fs-3">
+          Students
+        </section>
+        
+        <!-- ResultOnlineCourse -->
+
+
+
+
+
+
 
       </div>
     </div>
 
-    <!-- submitetitle2 -->
-    <div class="sub_2"> 
+    <!-- subtitle2 -->
+    <div class="sub_2">
       <h3><strong>Recent Courses</strong></h3>
       <p>
-        Whether you're considering a foundation course or an undergraduate degree master's <br> or a PhD, academics is a place where students thrive.
+        Whether you're considering a foundation course or an undergraduate degree master's <br> or a PhD, academics is a
+        place where students thrive.
       </p>
 
 
 
 
     </div>
+
+
+
+
 
 
 
@@ -128,9 +148,9 @@ export default {
 /* jumbo */
 .site_main {
   width: 100%;
-  height: 1000px;
+  height: 40rem;
   background-image: url(/images/jumbo.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 
   >.title {
@@ -198,10 +218,19 @@ export default {
   height: 100px;
 
   >.results {
-    background-color: black;
+
     margin: auto;
-    width: 70%;
+    width: 65%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+    >.statistics{
+      font-size: 3rem;
+      color: var(--color_statistics);
+  
+    }
 
   }
 
@@ -210,13 +239,8 @@ export default {
 
 
 /* subtitle2 */
-.sub_2{
+.sub_2 {
   text-align: center;
 
 }
-
-
-
-
-
 </style>
