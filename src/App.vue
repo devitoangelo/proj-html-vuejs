@@ -98,17 +98,38 @@ export default {
     <!-- resultsStudent -->
     <div class="info">
       <div class="results">
-        <section class="statistics">
+        <section class="statistics d-flex">
           6500
+          <div class="statistics">
+            +
+          </div>
+          <div class="c-b">
+            Students
+          </div>
         </section>
-        <section class="statistics">
-          +
-        </section>
-        <section class="fs-3">
-          Students
-        </section>
-        
+
         <!-- ResultOnlineCourse -->
+        <section class="statistics_course d-flex">
+          200
+          <div class="statistics">
+            +
+          </div>
+          <div class="c-b">
+            Online Courses
+          </div>
+        </section>
+
+        <!-- ResultHappyClients -->
+        <section class="statistics_client d-flex">
+          100
+          <div class="statistics">
+            %
+          </div>
+          <div class="c-b">
+            Happy Clients
+          </div>
+        </section>
+
 
 
 
@@ -179,7 +200,6 @@ export default {
   }
 
 }
-
 /* subtitle */
 
 .subtitle {
@@ -187,8 +207,6 @@ export default {
   display: flex;
 
 }
-
-
 
 /* container_card */
 
@@ -213,7 +231,6 @@ export default {
 /* results */
 
 .info {
-  background-color: red;
   width: 100%;
   height: 100px;
 
@@ -224,17 +241,44 @@ export default {
     height: 100%;
     display: flex;
     align-items: center;
-    gap: 1rem;
-    
-    >.statistics{
-      font-size: 3rem;
+    justify-content: space-around;
+
+
+
+    >.statistics {
+      font-size: 2.5rem;
       color: var(--color_statistics);
-  
+      gap: 10px;
+      background-image: url(/images/counter.png);
+      background-repeat: no-repeat;
     }
 
+    >.statistics_course {
+      color: var(--ResultOnlineCourse);
+      font-size: 2.5rem;
+      gap: 10px;
+      background-image: url(/images/counter2.png);
+      background-repeat: no-repeat;
+    }
+
+    >.statistics_client{
+      color: var(--HappyClients);
+      font-size: 2.5rem;
+      gap: 10px;
+      background-image: url(/images/counter3.png);
+      background-repeat: no-repeat;
+    
+
+    }
   }
 
 
+}
+.c-b{
+  color: black;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 
