@@ -253,15 +253,13 @@ export default {
 
     <!-- container_event -->
     <div class="container container_event">
+      <!-- left_section -->
       <div class="video">
         <img height="100%" width="100%" src="/images/video-bg.jpg" alt="">
-   
-
-
-
+        <p class="play"><img width="40px" src="/images/play.png" alt=""></p>
       </div>
+      <!-- right_section -->
       <div class="video events">
-
         <div class="Upcoming_event">
           Upcoming Events
         </div>
@@ -499,10 +497,28 @@ export default {
   }
 }
 
+
+/* right_section */
 .right_section {
 
   width: 80%;
   margin: auto;
   font-size: 25px
+}
+
+
+/* left_section */
+.play {
+  position: relative;
+  bottom: 15rem;
+  left: 20rem;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
 }
 </style>
