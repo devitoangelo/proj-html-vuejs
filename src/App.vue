@@ -252,15 +252,42 @@ export default {
 
 
     <!-- container_event -->
-    <div class="container d-flex" style="justify-content: center;">
-      <div style="background-color: red; height: 400px; width: 50%;">
+    <div class="container container_event">
+      <div class="video">
+        <img height="100%" width="100%" src="/images/video-bg.jpg" alt="">
+   
+
 
 
       </div>
-      <div style="background-color: black; height: 400px; width: 50%; margin-left: -10rem;margin-top: 5rem;">
+      <div class="video events">
 
+        <div class="Upcoming_event">
+          Upcoming Events
+        </div>
+
+        <div class="right_section mt-4">
+          <div>
+            Princeton offers admission information sessions <br>
+            and student-led tours to campus visitors
+          </div>
+          <div class="mt-3">
+            Learn more >
+          </div>
+          <div>
+            Admission information sessions adn student-led <br>
+            tours to campus visitors
+          </div>
+          <div class="mt-3">
+            Learn more >
+          </div>
+          <div style="text-align: center;">
+            <img width="20px" src="/images/map.png" alt=""> <strong style="font-size: 15px;">Event locations </strong>
+          </div>
+        </div>
       </div>
     </div>
+
 
 
 
@@ -437,5 +464,45 @@ export default {
   margin-left: 1rem;
   margin-right: 1rem;
   text-decoration: underline;
+}
+
+/* container_event */
+.container_event {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+
+  >.video {
+    height: 500px;
+    width: 50%
+  }
+
+  >.events {
+    margin-top: 5rem;
+    margin-left: -10rem;
+    background-color: white;
+
+
+
+    >.Upcoming_event {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--ResultOnlineCourse);
+      color: white;
+      width: 40%;
+      height: 20%;
+      font-size: x-large;
+      margin: auto;
+    }
+
+  }
+}
+
+.right_section {
+
+  width: 80%;
+  margin: auto;
+  font-size: 25px
 }
 </style>
