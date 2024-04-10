@@ -286,6 +286,17 @@ export default {
       </div>
     </div>
 
+<!-- subtitle3 -->
+    <div class="sub_2 mt-5">
+      <h3><strong>Latest From our Blogs</strong></h3>
+      <p>
+        Whether you're considering a foundation course or an undergraduate degree master's <br> or a PhD, academics is a
+        place where students thrive.
+      </p>
+    </div>
+
+
+
 
 
 
