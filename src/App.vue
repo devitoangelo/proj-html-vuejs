@@ -304,6 +304,8 @@ export default {
 
 
 
+
+
   </main>
 
 </template>
@@ -313,7 +315,7 @@ export default {
 /* jumbo */
 .site_main {
   width: 100%;
-  height: 40rem;
+  height: 50rem;
   background-image: url(/images/jumbo.png);
   background-size: cover;
   background-repeat: no-repeat;

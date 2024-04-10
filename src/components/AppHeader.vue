@@ -10,7 +10,7 @@ export default {
         <!-- container -->
         <div class="site_header">
             <!-- logo -->
-            <img width="100px" src="/images/Logo.jpg" alt="">
+            <img class="logo" width="100px" src="/images/Logo.jpg" alt="">
             <!-- lista header -->
             <ul class="d-flex header_list ">
                 <li>
@@ -65,6 +65,9 @@ export default {
             gap: 2rem;
             align-items: center;
 
+        }
+        >.logo{
+          margin-bottom: -1rem;
         }
 
     }
