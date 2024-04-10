@@ -130,13 +130,6 @@ export default {
           </div>
         </section>
 
-
-
-
-
-
-
-
       </div>
     </div>
 
@@ -420,7 +413,8 @@ export default {
           <aside>
             <h2>Contact Us</h2>
             <div class="info_footer">
-              <section class="pb-2"><i class="fa-solid fa-location-dot"></i> 900 Wood Street,Mi <br> New York 48607</section>
+              <section class="pb-2"><i class="fa-solid fa-location-dot"></i> 900 Wood Street,Mi <br> New York 48607
+              </section>
               <section class="pb-2"><i class="fa-solid fa-square-phone"></i> +56 784 442 378-09 </section>
               <section><i class="fa-regular fa-envelope"></i> info@example.com</section>
             </div>
@@ -460,19 +454,33 @@ export default {
             </div>
           </aside>
         </div>
-
+      </div>
+    </div>
+    <!-- footer_copy -->
+    <div class="footer_copy">
+      <div class="copy">
+        <nav>
+          &#169; Copyright 2020 tophive. all rights Reserved
+        </nav>
+        <ul class="list_footer_copy">
+          <li>
+            Privacy
+          </li>
+          <li>
+            Terms
+          </li>
+          <li>
+            Cookie Policy
+          </li>
+          <li>
+            Sitemap
+          </li>
+        </ul>
 
       </div>
 
 
-
-
-
     </div>
-
-
-
-
 
   </footer>
 
@@ -557,8 +565,6 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-
 
     >.statistics {
       font-size: 2.5rem;
@@ -708,7 +714,7 @@ hr {
 /* input_footer */
 .site_footer {
   background-color: var(--bg_footer);
-  height: 600px;
+  height: 500px;
   width: 100%;
   padding-top: 5rem;
 
@@ -731,9 +737,6 @@ hr {
         height: 100%;
         width: 25%;
         text-decoration: none;
-
-
-
 
       }
 
@@ -773,12 +776,41 @@ hr {
     display: flex;
     justify-content: space-evenly;
 
-
-
   }
 }
 
 .info_footer {
   color: var(--color_text);
+}
+
+/* footer_copy */
+.footer_copy {
+  background-color: var(--color);
+  height: 50px;
+  width: 100%;
+  display: flex;
+
+
+
+  >.copy {
+
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    font-size: x-small;
+    justify-content: space-between;
+    color: var(--color_footer);
+    line-height: 3;
+  }
+}
+.list_footer_copy {
+
+list-style: none;
+display: flex;
+gap: 1rem;
+align-items: center;
+
+
 }
 </style>
