@@ -481,7 +481,6 @@ export default {
 
 
     </div>
-
   </footer>
 
 </template>
@@ -512,11 +511,14 @@ export default {
       border: 1px solid #cccc;
       border-radius: 0;
       width: 150px;
+      
 
     }
 
     >.button:hover {
       border: 1px solid black;
+      background-color: var(--ResultOnlineCourse);
+      color: white;
 
     }
   }

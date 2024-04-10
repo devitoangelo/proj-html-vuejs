@@ -13,23 +13,23 @@ export default {
             <img class="logo" width="100px" src="/images/Logo.jpg" alt="">
             <!-- lista header -->
             <ul class="d-flex header_list ">
-                <li>
+                <li class="hover_click">
                     <strong>Home</strong>
                 </li>
-                <li>
+                <li class="hover_click">
                     <strong>About</strong>
                     
                 </li>
-                <li>
+                <li class="hover_click">
                     <strong>Academics</strong>
                     
                 </li>
-                <li>
+                <li class="hover_click">
                     <strong>Courses</strong>
                     
 
                 </li>
-                <li>
+                <li class="hover_click">
                     <strong>News</strong>
                     
 
@@ -71,5 +71,11 @@ export default {
         }
 
     }
+}
+
+.hover_click:hover{
+    text-decoration: underline;
+    color: red;
+    
 }
 </style>
