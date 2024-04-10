@@ -311,15 +311,16 @@ export default {
                   <i class="fa-regular fa-folder-closed"></i>
                   <nav style="padding-left: 1rem ;">University</nav>
                 </div>
-                <h1 style="font-size: 1rem;"> <strong>Peer pressure changes how  winner's work to open gold on Film festival</strong>
+                <h1 style="font-size: 1rem;"> <strong>Peer pressure changes how winner's work to open gold on Film
+                    festival</strong>
                 </h1>
                 <br>
                 <p>
-                <hr>
+                  <hr>
                 </p>
                 <div class="mt-4">
                   Read more >
-                  
+
                 </div>
               </div>
             </div>
@@ -338,11 +339,12 @@ export default {
                   <i class="fa-regular fa-folder-closed"></i>
                   <nav style="padding-left: 1rem ;">University</nav>
                 </div>
-                <h1 style="font-size: 1rem;"> <strong>Lewisham Live Mixtapewinner's work to open gold on Film festival</strong>
+                <h1 style="font-size: 1rem;"> <strong>Lewisham Live Mixtapewinner's work to open gold on Film
+                    festival</strong>
                 </h1>
                 <br>
                 <p>
-                <hr>
+                  <hr>
                 </p>
                 <div class="mt-4">
                   Read more >
@@ -364,11 +366,12 @@ export default {
                   <i class="fa-regular fa-folder-closed"></i>
                   <nav style="padding-left: 1rem ;">University</nav>
                 </div>
-                <h1 style="font-size: 1rem;"> <strong>Tourner Prize Live Mixtapewinner's work to open gold on Film festival</strong>
+                <h1 style="font-size: 1rem;"> <strong>Tourner Prize Live Mixtapewinner's work to open gold on Film
+                    festival</strong>
                 </h1>
                 <br>
                 <p>
-                <hr>
+                  <hr>
                 </p>
                 <div class="mt-4">
                   Read more >
@@ -384,38 +387,40 @@ export default {
 
     <!-- container_images -->
     <div class="container-fluid images">
-     <img  src="/images/gallery-1.jpg" alt="">
-     <img width="465px" height="330px" src="/images/news-3.jpg"alt="">
-     <img src="/images/gallery-2.jpg" alt="">
-     <img src="/images/gallery-3.jpg" alt="">
+      <img src="/images/gallery-1.jpg" alt="">
+      <img width="465px" height="330px" src="/images/news-3.jpg" alt="">
+      <img src="/images/gallery-2.jpg" alt="">
+      <img src="/images/gallery-3.jpg" alt="">
     </div>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   </main>
+
+  <!-- footer -->
+  <footer>
+    <div class="site_footer">
+      <div class="footer">
+        <div class="templete_footer">
+          <input  placeholder="Subscribe to our newsletter" class="input">
+          <button class="buttom"> Register</button>
+        
+        
+
+
+        </div>
+       
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+  </footer>
 
 </template>
 
@@ -633,14 +638,68 @@ export default {
 
 }
 
-hr{
+hr {
   width: 20%;
   color: var(--color_subtitle);
   border: 2px solid;
 }
 
 /* images */
-.images{
+.images {
   padding: 0;
+}
+
+
+/* footer */
+
+.site_footer {
+  background-color: var(--bg_footer);
+  height: 600px;
+  width: 100%;
+  padding-top: 5rem;
+
+  >.footer {
+    margin: auto;
+    width: 70%;
+    background-color: black;
+    height: 150px;
+    display: flex;
+
+    >.templete_footer {
+      margin: auto;
+      width: 90%;
+      background-color: white;
+      height: 40%;
+      display: flex;
+      align-items: center;
+
+      >.input {
+        height: 100%;
+        width: 40%;
+        text-decoration: none;
+     
+        
+
+
+      }
+
+      >.buttom {
+        background-color: var(--ResultOnlineCourse);
+        height: 80%;
+        width: 15%;
+        color: white;
+        border: none
+      }
+
+      >.text_footer{
+        display: flex;
+        height: 90%;
+        margin-left: 2rem;
+      }
+
+    }
+
+  }
+
 }
 </style>
