@@ -382,6 +382,16 @@ export default {
 
 
 
+    <!-- container_images -->
+    <div class="container-fluid images">
+     <img  src="/images/gallery-1.jpg" alt="">
+     <img width="465px" height="330px" src="/images/news-3.jpg"alt="">
+     <img src="/images/gallery-2.jpg" alt="">
+     <img src="/images/gallery-3.jpg" alt="">
+    </div>
+    
+
+
 
 
 
@@ -627,5 +637,10 @@ hr{
   width: 20%;
   color: var(--color_subtitle);
   border: 2px solid;
+}
+
+/* images */
+.images{
+  padding: 0;
 }
 </style>
