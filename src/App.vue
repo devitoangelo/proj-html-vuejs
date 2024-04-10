@@ -158,14 +158,26 @@ export default {
       <div class="row">
         <div class="col ">
           <div class="card card_">
-            <img style="width: 100%;"  src="/images/bruce.jpg" alt="">
+            <img style="width: 100%;" src="/images/bruce.jpg" alt="">
             <div class="card-body">
               <div class="card-title">
-                <p>Free</p>
-                <h1 class="card_title"> <strong>Online Coaching</strong></h1>
-                <p style="text-align: center;">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, alias.
+                <!--  Per la line rossa sopra la scritta free -->
+                <div class="free_bg">
+                  free
+                </div>
+                <p>
+                  Free
                 </p>
+
+                <h1 style="font-size: 1rem;"> <strong>UL Animation using Sketch 3,<br>Principle App, and Flint</strong>
+                </h1>
+                <p>
+                  This online photography course will teach you how to take amazing
+                  images and even sell..
+                </p>
+                <div style="color: var(--color_subtitle) ;">
+                  Course by : University
+                </div>
               </div>
             </div>
           </div>
@@ -173,14 +185,24 @@ export default {
         <!-- card 2 -->
         <div class="col ">
           <div class="card card_">
-            <img style="width: 100%;"  src="/images/course.jpg" alt="">
+            <img style="width: 100%; height: 17rem;" src="/images/course.jpg" alt="">
             <div class="card-body">
               <div class="card-title">
-                <p>Free</p>
-                <h1 class="card_title"> <strong>Consultation</strong></h1>
-                <p style="text-align: center;">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, alias.
+                <div class="free_bg">
+                  free
+                </div>
+                <p>
+                  Free
                 </p>
+                <h1 style="font-size: 1rem;"> <strong>The Ultimate Drawing Course <br>-Beginner to Advanced</strong>
+                </h1>
+                <p>
+                  This online photography course will teach you how to take amazing
+                  images and even sell..
+                </p>
+                <div style="color:var(--color_subtitle);">
+                  Course by : University
+                </div>
               </div>
             </div>
           </div>
@@ -191,16 +213,25 @@ export default {
             <img style="width: 100%;" src="/images/william.jpg" alt="">
             <div class="card-body">
               <div class="card-title">
-                <p>Free</p>
-                <h1 class="card_title"> <strong>Life Programs</strong></h1>
-                <p style="text-align: center;">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, alias.
+                <div class="free_bg">
+                  free
+                </div>
+                <p>
+                  Free
                 </p>
+                <h1 style="font-size: 1rem;"> <strong>Your completed Guide to photography</strong></h1>
+                <br>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, alias.
+
+                </p>
+                <div style="color: var(--color_subtitle);">
+                  Course by : University
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
 
@@ -348,4 +379,19 @@ export default {
 
 
 /* container_cacrd2  */
+
+.free_bg {
+  position: absolute;
+  background-color: var(--bg_free);
+  z-index: 1;
+  height: 10px;
+  color: transparent;
+  margin-top: 0.5rem;
+
+}
+
+.free {
+  position: relative;
+  z-index: 1;
+}
 </style>
