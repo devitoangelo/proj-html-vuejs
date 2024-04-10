@@ -400,14 +400,24 @@ export default {
     <div class="site_footer">
       <div class="footer">
         <div class="templete_footer">
-          <input  placeholder="Subscribe to our newsletter" class="input">
+          <input placeholder="Subscribe to our newsletter" class="input_text">
           <button class="buttom"> Register</button>
-        
-        
+          <section class="text_footer">
+            <nav class="color_text">
+              Insights is Picwik
+            </nav>
+            <nav style="color: var(--color_text);">
+              university's thought leadership publication for sharing
+            </nav>
+
+         
+          </section>
+          
+
+
 
 
         </div>
-       
       </div>
 
 
@@ -661,24 +671,24 @@ hr {
   >.footer {
     margin: auto;
     width: 70%;
-    background-color: black;
+    background-color: var(--color);
     height: 150px;
     display: flex;
 
     >.templete_footer {
       margin: auto;
       width: 90%;
-      background-color: white;
+      background-color: var(--color);
       height: 40%;
-      display: flex;
+      display: inline-flex;
       align-items: center;
 
-      >.input {
+      >.input_text {
         height: 100%;
-        width: 40%;
+        width: 25%;
         text-decoration: none;
-     
-        
+
+
 
 
       }
@@ -691,10 +701,16 @@ hr {
         border: none
       }
 
-      >.text_footer{
+      >.text_footer {
         display: flex;
         height: 90%;
         margin-left: 2rem;
+
+        >.color_text {
+          color: var(--color_subtitle);
+          text-decoration: underline;
+          margin-right: 0.5rem;
+        }
       }
 
     }

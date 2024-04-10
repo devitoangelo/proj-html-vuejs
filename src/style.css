@@ -1,20 +1,21 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --color_subtitle :  #FF3A2D;
-  --color_statistics : #F28202;
+  --color_subtitle: #FF3A2D;
+  --color_statistics: #F28202;
   --ResultOnlineCourse: #D74D52;
   --HappyClients: #3adc79;
-  --bg_free:  #D74D5240;
+  --bg_free: #D74D5240;
   --color_event: #D74D52CF;
-  --bg_footer: #192735 ;
+  --bg_footer: #192735;
+  --color: #15222E;
+  --color_text: #FFFFFF7A;
 }
 
 
-*{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body{
+body {
   background-color: #fbfbfb;
 }
-
