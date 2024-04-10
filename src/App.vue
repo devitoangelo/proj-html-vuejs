@@ -238,7 +238,7 @@ export default {
     <!-- subtitle2 -->
     <div class="subtitle" style="font-size: 2rem;">
       <div style="text-align: center;">
-       " Academics was committed to my success from the moment I attended an Open <br>
+        " Academics was committed to my success from the moment I attended an Open <br>
         <nav class="d-flex">House. With the support of caring<p class="color_subtitle">advisor Professors and staff</p>
           i was able to</nav>
         <div style="margin-top: -1rem;">
@@ -247,6 +247,18 @@ export default {
           </strong>
           "
         </div>
+      </div>
+    </div>
+
+
+    <!-- container_event -->
+    <div class="container d-flex" style="justify-content: center;">
+      <div style="background-color: red; height: 400px; width: 50%;">
+
+
+      </div>
+      <div style="background-color: black; height: 400px; width: 50%; margin-left: -10rem;margin-top: 5rem;">
+
       </div>
     </div>
 
