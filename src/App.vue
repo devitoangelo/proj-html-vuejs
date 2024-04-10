@@ -397,6 +397,7 @@ export default {
 
   <!-- footer -->
   <footer>
+    <!-- input_footer -->
     <div class="site_footer">
       <div class="footer">
         <div class="templete_footer">
@@ -409,15 +410,58 @@ export default {
             <nav style="color: var(--color_text);">
               university's thought leadership publication for sharing
             </nav>
-
-         
           </section>
-          
-
-
-
-
         </div>
+      </div>
+
+      <!-- list_footer -->
+      <div class="list_footer">
+        <div class="contanier-info">
+          <aside>
+            <h2>Contact Us</h2>
+            <div class="info_footer">
+              <section class="pb-2"><i class="fa-solid fa-location-dot"></i> 900 Wood Street,Mi <br> New York 48607</section>
+              <section class="pb-2"><i class="fa-solid fa-square-phone"></i> +56 784 442 378-09 </section>
+              <section><i class="fa-regular fa-envelope"></i> info@example.com</section>
+            </div>
+          </aside>
+
+          <aside>
+            <h2>Support Us</h2>
+            <div class="info_footer">
+              <section class="pb-2">> Privacy</section>
+              <section class="pb-2">> Terms</section>
+              <section class="pb-2">> Cookie policy</section>
+              <section>> Sitemap</section>
+            </div>
+          </aside>
+
+
+          <aside>
+            <h2>Explore</h2>
+            <div class="info_footer">
+              <section class="pb-2">> Accommodation</section>
+              <section class="pb-2">> Arts Academics</section>
+              <section class="pb-2"> > central Services </section>
+              <section class="pb-2">> Conferences and Events</section>
+              <section>> Food and Drink </section>
+            </div>
+          </aside>
+
+
+          <aside>
+            <h2>Visit</h2>
+            <div class="info_footer">
+              <section class="pb-2"> > Admision</section>
+              <section class="pb-2">> Contact Us</section>
+              <section class="pb-2">> FAQs</section>
+              <section class="pb-2">> Request information</section>
+              <section>> Privacy notice</section>
+            </div>
+          </aside>
+        </div>
+
+
       </div>
 
 
@@ -661,7 +705,7 @@ hr {
 
 
 /* footer */
-
+/* input_footer */
 .site_footer {
   background-color: var(--bg_footer);
   height: 600px;
@@ -716,6 +760,25 @@ hr {
     }
 
   }
+}
 
+/* list_footer */
+
+.list_footer {
+  color: white;
+  margin-top: 3rem;
+
+
+  >.contanier-info {
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+  }
+}
+
+.info_footer {
+  color: var(--color_text);
 }
 </style>
