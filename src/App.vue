@@ -153,6 +153,59 @@ export default {
 
     </div>
 
+    <!-- container_cacrd2 -->
+    <div class="container">
+      <div class="row">
+        <div class="col ">
+          <div class="card card_">
+            <img style="width: 100%;"  src="/images/bruce.jpg" alt="">
+            <div class="card-body">
+              <div class="card-title">
+                <p>Free</p>
+                <h1 class="card_title"> <strong>Online Coaching</strong></h1>
+                <p style="text-align: center;">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, alias.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="col ">
+          <div class="card card_">
+            <img style="width: 100%;"  src="/images/course.jpg" alt="">
+            <div class="card-body">
+              <div class="card-title">
+                <p>Free</p>
+                <h1 class="card_title"> <strong>Consultation</strong></h1>
+                <p style="text-align: center;">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, alias.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="col ">
+          <div class="card card_">
+            <img style="width: 100%;" src="/images/william.jpg" alt="">
+            <div class="card-body">
+              <div class="card-title">
+                <p>Free</p>
+                <h1 class="card_title"> <strong>Life Programs</strong></h1>
+                <p style="text-align: center;">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, alias.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
 
 
 
@@ -200,6 +253,7 @@ export default {
   }
 
 }
+
 /* subtitle */
 
 .subtitle {
@@ -253,6 +307,7 @@ export default {
       background-repeat: no-repeat;
     }
 
+    /* statistics_course */
     >.statistics_course {
       color: var(--ResultOnlineCourse);
       font-size: 2.5rem;
@@ -261,20 +316,22 @@ export default {
       background-repeat: no-repeat;
     }
 
-    >.statistics_client{
+    /* statistics_client */
+    >.statistics_client {
       color: var(--HappyClients);
       font-size: 2.5rem;
       gap: 10px;
       background-image: url(/images/counter3.png);
       background-repeat: no-repeat;
-    
+
 
     }
   }
 
 
 }
-.c-b{
+
+.c-b {
   color: black;
   font-size: 1rem;
   display: flex;
@@ -285,6 +342,10 @@ export default {
 /* subtitle2 */
 .sub_2 {
   text-align: center;
+  padding: 3rem;
 
 }
+
+
+/* container_cacrd2  */
 </style>
