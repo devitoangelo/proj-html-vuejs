@@ -75,7 +75,7 @@ export default {
 
 .hover_click:hover{
     text-decoration: underline;
-    color: red;
-    
+    color: var(--color_subtitle);
+
 }
 </style>

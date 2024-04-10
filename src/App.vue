@@ -66,7 +66,7 @@ export default {
         <!-- card 2 -->
         <div class="col ">
           <div class="card card_">
-            <img class="img" src="/images/svg-0.svg" alt="">
+            <img class="img" src="/images/svg-1.svg" alt="">
             <div class="card-body">
               <div class="card-title">
                 <h1 class="card_title"> <strong>Consultation</strong></h1>
@@ -80,7 +80,7 @@ export default {
         <!-- card 3 -->
         <div class="col ">
           <div class="card card_">
-            <img class="img" src="/images/svg-0.svg" alt="">
+            <img class="img" src="/images/svg-2.svg" alt="">
             <div class="card-body">
               <div class="card-title">
                 <h1 class="card_title"> <strong>Life Programs</strong></h1>
@@ -413,20 +413,21 @@ export default {
           <aside>
             <h2>Contact Us</h2>
             <div class="info_footer">
-              <section class="pb-2"><i class="fa-solid fa-location-dot"></i> 900 Wood Street,Mi <br> New York 48607
+              <section class="pb-2 hover_footer"><i class="fa-solid fa-location-dot"></i> 900 Wood Street,Mi <br> New
+                York 48607
               </section>
-              <section class="pb-2"><i class="fa-solid fa-square-phone"></i> +56 784 442 378-09 </section>
-              <section><i class="fa-regular fa-envelope"></i> info@example.com</section>
+              <section class="pb-2 hover_footer"><i class="fa-solid fa-square-phone"></i> +56 784 442 378-09 </section>
+              <section class="hover_footer"><i class="fa-regular fa-envelope"></i> info@example.com</section>
             </div>
           </aside>
 
           <aside>
             <h2>Support Us</h2>
             <div class="info_footer">
-              <section class="pb-2">> Privacy</section>
-              <section class="pb-2">> Terms</section>
-              <section class="pb-2">> Cookie policy</section>
-              <section>> Sitemap</section>
+              <section class="pb-2 hover_footer">> Privacy</section>
+              <section class="pb-2 hover_footer">> Terms</section>
+              <section class="pb-2 hover_footer">> Cookie policy</section>
+              <section class="hover_footer">> Sitemap</section>
             </div>
           </aside>
 
@@ -434,23 +435,23 @@ export default {
           <aside>
             <h2>Explore</h2>
             <div class="info_footer">
-              <section class="pb-2">> Accommodation</section>
-              <section class="pb-2">> Arts Academics</section>
-              <section class="pb-2"> > central Services </section>
-              <section class="pb-2">> Conferences and Events</section>
-              <section>> Food and Drink </section>
+              <section class="pb-2 hover_footer">> Accommodation</section>
+              <section class="pb-2 hover_footer">> Arts Academics</section>
+              <section class="pb-2 hover_footer"> > central Services </section>
+              <section class="pb-2 hover_footer">> Conferences and Events</section>
+              <section class="hover_footer">> Food and Drink </section>
             </div>
           </aside>
 
 
           <aside>
             <h2>Visit</h2>
-            <div class="info_footer">
-              <section class="pb-2"> > Admision</section>
-              <section class="pb-2">> Contact Us</section>
-              <section class="pb-2">> FAQs</section>
-              <section class="pb-2">> Request information</section>
-              <section>> Privacy notice</section>
+            <div class="info_footer hover_footer">
+              <section class="pb-2 hover_footer"> > Admision</section>
+              <section class="pb-2 hover_footer">> Contact Us</section>
+              <section class="pb-2 hover_footer">> FAQs</section>
+              <section class="pb-2 hover_footer">> Request information</section>
+              <section class="hover_footer">> Privacy notice</section>
             </div>
           </aside>
         </div>
@@ -511,7 +512,7 @@ export default {
       border: 1px solid #cccc;
       border-radius: 0;
       width: 150px;
-      
+
 
     }
 
@@ -551,6 +552,10 @@ export default {
   font-size: 1rem;
   text-align: center;
 
+}
+
+.card_title:hover {
+  color: var(--color_subtitle);
 }
 
 /* results */
@@ -792,10 +797,7 @@ hr {
   width: 100%;
   display: flex;
 
-
-
   >.copy {
-
     width: 70%;
     margin: auto;
     height: 100%;
@@ -806,13 +808,16 @@ hr {
     line-height: 3;
   }
 }
+
 .list_footer_copy {
 
-list-style: none;
-display: flex;
-gap: 1rem;
-align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
 
-
+.hover_footer:hover {
+  color: var(--color_subtitle);
 }
 </style>
