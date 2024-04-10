@@ -235,6 +235,29 @@ export default {
       </div>
     </div>
 
+    <!-- subtitle2 -->
+    <div class="subtitle" style="font-size: 2rem;">
+      <div style="text-align: center;">
+       " Academics was committed to my success from the moment I attended an Open <br>
+        <nav class="d-flex">House. With the support of caring<p class="color_subtitle">advisor Professors and staff</p>
+          i was able to</nav>
+        <div style="margin-top: -1rem;">
+          thrive in courses, gain recognition through scholarships, and finish <strong> with <br>
+            confidence in my @academics abilities
+          </strong>
+          "
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -393,5 +416,14 @@ export default {
 .free {
   position: relative;
   z-index: 1;
+}
+
+
+/* subtitle2 */
+.color_subtitle {
+  color: var(--color_subtitle);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: underline;
 }
 </style>
