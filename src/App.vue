@@ -153,7 +153,7 @@ export default {
 
     </div>
 
-    <!-- container_cacrd2 -->
+    <!-- container_cacd2 -->
     <div class="container">
       <div class="row">
         <div class="col ">
@@ -286,7 +286,7 @@ export default {
       </div>
     </div>
 
-<!-- subtitle3 -->
+    <!-- subtitle3 -->
     <div class="sub_2 mt-5">
       <h3><strong>Latest From our Blogs</strong></h3>
       <p>
@@ -294,6 +294,94 @@ export default {
         place where students thrive.
       </p>
     </div>
+
+
+    <!-- containercard3 -->
+    <div class="container">
+      <div class="row">
+        <div class="col ">
+          <div class="card card_">
+            <img style="width: 100%;" src="/images/news-3.jpg" alt="">
+            <div class="card-body">
+              <div class="card-title">
+                <!-- icons -->
+                <div class="d-flex" style="align-items: center;">
+                  <i class="fa-regular fa-user"></i>
+                  <nav style="padding-left: 1rem; margin-right: 2rem;">Admin</nav>
+                  <i class="fa-regular fa-folder-closed"></i>
+                  <nav style="padding-left: 1rem ;">University</nav>
+                </div>
+                <h1 style="font-size: 1rem;"> <strong>Peer pressure changes how  winner's work to open gold on Film festival</strong>
+                </h1>
+                <br>
+                <p>
+                <hr>
+                </p>
+                <div class="mt-4">
+                  Read more >
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="col ">
+          <div class="card card_">
+            <img style="width: 100%;" src="/images/news-2.jpg" alt="">
+            <div class="card-body">
+              <div class="card-title">
+                <!-- icons -->
+                <div class="d-flex" style="align-items: center;">
+                  <i class="fa-regular fa-user"></i>
+                  <nav style="padding-left: 1rem; margin-right: 2rem;">Admin</nav>
+                  <i class="fa-regular fa-folder-closed"></i>
+                  <nav style="padding-left: 1rem ;">University</nav>
+                </div>
+                <h1 style="font-size: 1rem;"> <strong>Lewisham Live Mixtapewinner's work to open gold on Film festival</strong>
+                </h1>
+                <br>
+                <p>
+                <hr>
+                </p>
+                <div class="mt-4">
+                  Read more >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="col ">
+          <div class="card card_">
+            <img style="width: 100%;" src="/images/news-1.jpg" alt="">
+            <div class="card-body">
+              <div class="card-title">
+                <!-- icons -->
+                <div class="d-flex" style="align-items: center;">
+                  <i class="fa-regular fa-user"></i>
+                  <nav style="padding-left: 1rem; margin-right: 2rem;">Admin</nav>
+                  <i class="fa-regular fa-folder-closed"></i>
+                  <nav style="padding-left: 1rem ;">University</nav>
+                </div>
+                <h1 style="font-size: 1rem;"> <strong>Tourner Prize Live Mixtapewinner's work to open gold on Film festival</strong>
+                </h1>
+                <br>
+                <p>
+                <hr>
+                </p>
+                <div class="mt-4">
+                  Read more >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
 
 
 
@@ -533,5 +621,11 @@ export default {
   align-items: center;
   border-radius: 50%;
 
+}
+
+hr{
+  width: 20%;
+  color: var(--color_subtitle);
+  border: 2px solid;
 }
 </style>
