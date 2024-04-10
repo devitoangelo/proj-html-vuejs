@@ -62,7 +62,7 @@ export default {
 
           <aside>
             <h2>Visit</h2>
-            <div class="info_footer hover_footer">
+            <div class="info_footer">
               <section class="pb-2 hover_footer"> > Admision</section>
               <section class="pb-2 hover_footer">> Contact Us</section>
               <section class="pb-2 hover_footer">> FAQs</section>
